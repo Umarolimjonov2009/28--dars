@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(71, 71, 195);
+}
+.box{
+    background-color: rgb(209, 7, 209);
+    width: 650px;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+    margin-bottom: 30px;
+}
+textarea{
+    width: 45%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+select{
+    width: 45%;
+    padding: 7px ;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(71, 71, 195);
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
